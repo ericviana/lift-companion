@@ -11,6 +11,15 @@
 		0774CFCF2C433C7A00AFE3C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0774CFCE2C433C7A00AFE3C9 /* ContentView.swift */; };
 		0774CFD12C433C7B00AFE3C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0774CFD02C433C7B00AFE3C9 /* Assets.xcassets */; };
 		0774CFD42C433C7B00AFE3C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0774CFD32C433C7B00AFE3C9 /* Preview Assets.xcassets */; };
+		0774CFDE2C444DA300AFE3C9 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0774CFDD2C444DA300AFE3C9 /* IntroView.swift */; };
+		0774CFE12C444EB600AFE3C9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0774CFE02C444EB600AFE3C9 /* Constants.swift */; };
+		0774CFE32C445C0200AFE3C9 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0774CFE22C445C0200AFE3C9 /* Tab.swift */; };
+		0774CFE52C44607400AFE3C9 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0774CFE42C44607400AFE3C9 /* Exercise.swift */; };
+		0774CFE72C44611000AFE3C9 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0774CFE62C44611000AFE3C9 /* Log.swift */; };
+		0774CFEA2C44621600AFE3C9 /* Lifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0774CFE92C44621600AFE3C9 /* Lifts.swift */; };
+		0774CFEC2C44622900AFE3C9 /* Trends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0774CFEB2C44622900AFE3C9 /* Trends.swift */; };
+		0774CFEE2C44623400AFE3C9 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0774CFED2C44623400AFE3C9 /* Profile.swift */; };
+		0774CFF32C44647700AFE3C9 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0774CFF22C44647700AFE3C9 /* View+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		0774CFCE2C433C7A00AFE3C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0774CFD02C433C7B00AFE3C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0774CFD32C433C7B00AFE3C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0774CFDD2C444DA300AFE3C9 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		0774CFE02C444EB600AFE3C9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0774CFE22C445C0200AFE3C9 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		0774CFE42C44607400AFE3C9 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		0774CFE62C44611000AFE3C9 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		0774CFE92C44621600AFE3C9 /* Lifts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lifts.swift; sourceTree = "<group>"; };
+		0774CFEB2C44622900AFE3C9 /* Trends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trends.swift; sourceTree = "<group>"; };
+		0774CFED2C44623400AFE3C9 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		0774CFF22C44647700AFE3C9 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,11 @@
 		0774CFCB2C433C7A00AFE3C9 /* Lift Companion */ = {
 			isa = PBXGroup;
 			children = (
+				0774CFF12C44646600AFE3C9 /* Extensions */,
+				0774CFDF2C444E9F00AFE3C9 /* Helpers */,
+				0774CFDC2C4376DF00AFE3C9 /* ViewModels */,
+				0774CFDB2C4376D300AFE3C9 /* Models */,
+				0774CFDA2C4376CC00AFE3C9 /* Views */,
 				0774CFCC2C433C7A00AFE3C9 /* Lift_CompanionApp.swift */,
 				0774CFCE2C433C7A00AFE3C9 /* ContentView.swift */,
 				0774CFD02C433C7B00AFE3C9 /* Assets.xcassets */,
@@ -65,6 +88,58 @@
 				0774CFD32C433C7B00AFE3C9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0774CFDA2C4376CC00AFE3C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0774CFE82C44620400AFE3C9 /* TabViews */,
+				0774CFDD2C444DA300AFE3C9 /* IntroView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0774CFDB2C4376D300AFE3C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0774CFE22C445C0200AFE3C9 /* Tab.swift */,
+				0774CFE42C44607400AFE3C9 /* Exercise.swift */,
+				0774CFE62C44611000AFE3C9 /* Log.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0774CFDC2C4376DF00AFE3C9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0774CFDF2C444E9F00AFE3C9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0774CFE02C444EB600AFE3C9 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0774CFE82C44620400AFE3C9 /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				0774CFE92C44621600AFE3C9 /* Lifts.swift */,
+				0774CFEB2C44622900AFE3C9 /* Trends.swift */,
+				0774CFED2C44623400AFE3C9 /* Profile.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+		0774CFF12C44646600AFE3C9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0774CFF22C44647700AFE3C9 /* View+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +212,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0774CFEC2C44622900AFE3C9 /* Trends.swift in Sources */,
+				0774CFEE2C44623400AFE3C9 /* Profile.swift in Sources */,
+				0774CFEA2C44621600AFE3C9 /* Lifts.swift in Sources */,
 				0774CFCF2C433C7A00AFE3C9 /* ContentView.swift in Sources */,
+				0774CFE72C44611000AFE3C9 /* Log.swift in Sources */,
 				0774CFCD2C433C7A00AFE3C9 /* Lift_CompanionApp.swift in Sources */,
+				0774CFE32C445C0200AFE3C9 /* Tab.swift in Sources */,
+				0774CFF32C44647700AFE3C9 /* View+Extension.swift in Sources */,
+				0774CFDE2C444DA300AFE3C9 /* IntroView.swift in Sources */,
+				0774CFE12C444EB600AFE3C9 /* Constants.swift in Sources */,
+				0774CFE52C44607400AFE3C9 /* Exercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
