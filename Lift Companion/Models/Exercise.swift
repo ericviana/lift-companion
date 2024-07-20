@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-enum Exercise: String {
+enum Exercise: String, CaseIterable {
     case deadlift = "Deadlift"
     case squat = "Squat"
     case bench = "Bench"

@@ -31,7 +31,7 @@ struct IntroView: View {
         Button(action: {
             isFirstTime = false
         }, label: {
-            Text("Continue")
+            Text("Let's Go")
                 .frame(maxWidth: .infinity)
                 .padding()
         })

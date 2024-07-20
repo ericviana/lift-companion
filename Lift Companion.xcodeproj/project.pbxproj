@@ -19,7 +19,10 @@
 		0774CFEA2C44621600AFE3C9 /* Lifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0774CFE92C44621600AFE3C9 /* Lifts.swift */; };
 		0774CFEC2C44622900AFE3C9 /* Trends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0774CFEB2C44622900AFE3C9 /* Trends.swift */; };
 		0774CFEE2C44623400AFE3C9 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0774CFED2C44623400AFE3C9 /* Profile.swift */; };
-		0774CFF32C44647700AFE3C9 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0774CFF22C44647700AFE3C9 /* View+Extension.swift */; };
+		0774CFF32C44647700AFE3C9 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0774CFF22C44647700AFE3C9 /* View+Extensions.swift */; };
+		0774CFF52C4498D600AFE3C9 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0774CFF42C4498D600AFE3C9 /* Date+Extensions.swift */; };
+		07B537802C4C573D000F708A /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B5377F2C4C573D000F708A /* LogView.swift */; };
+		07B537822C4C5DE2000F708A /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B537812C4C5DE1000F708A /* SwipeAction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +39,10 @@
 		0774CFE92C44621600AFE3C9 /* Lifts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lifts.swift; sourceTree = "<group>"; };
 		0774CFEB2C44622900AFE3C9 /* Trends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trends.swift; sourceTree = "<group>"; };
 		0774CFED2C44623400AFE3C9 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
-		0774CFF22C44647700AFE3C9 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		0774CFF22C44647700AFE3C9 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		0774CFF42C4498D600AFE3C9 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		07B5377F2C4C573D000F708A /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		07B537812C4C5DE1000F708A /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,7 @@
 		0774CFDA2C4376CC00AFE3C9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				07B5377E2C4C5072000F708A /* Helpers */,
 				0774CFE82C44620400AFE3C9 /* TabViews */,
 				0774CFDD2C444DA300AFE3C9 /* IntroView.swift */,
 			);
@@ -137,9 +144,19 @@
 		0774CFF12C44646600AFE3C9 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				0774CFF22C44647700AFE3C9 /* View+Extension.swift */,
+				0774CFF22C44647700AFE3C9 /* View+Extensions.swift */,
+				0774CFF42C4498D600AFE3C9 /* Date+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		07B5377E2C4C5072000F708A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				07B5377F2C4C573D000F708A /* LogView.swift */,
+				07B537812C4C5DE1000F708A /* SwipeAction.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,9 +234,12 @@
 				0774CFEA2C44621600AFE3C9 /* Lifts.swift in Sources */,
 				0774CFCF2C433C7A00AFE3C9 /* ContentView.swift in Sources */,
 				0774CFE72C44611000AFE3C9 /* Log.swift in Sources */,
+				0774CFF52C4498D600AFE3C9 /* Date+Extensions.swift in Sources */,
+				07B537822C4C5DE2000F708A /* SwipeAction.swift in Sources */,
 				0774CFCD2C433C7A00AFE3C9 /* Lift_CompanionApp.swift in Sources */,
+				07B537802C4C573D000F708A /* LogView.swift in Sources */,
 				0774CFE32C445C0200AFE3C9 /* Tab.swift in Sources */,
-				0774CFF32C44647700AFE3C9 /* View+Extension.swift in Sources */,
+				0774CFF32C44647700AFE3C9 /* View+Extensions.swift in Sources */,
 				0774CFDE2C444DA300AFE3C9 /* IntroView.swift in Sources */,
 				0774CFE12C444EB600AFE3C9 /* Constants.swift in Sources */,
 				0774CFE52C44607400AFE3C9 /* Exercise.swift in Sources */,
@@ -356,7 +376,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Lift Companion/Preview Content\"";
-				DEVELOPMENT_TEAM = 3LA529DDWJ;
+				DEVELOPMENT_TEAM = WTMHWLF8T6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -385,7 +405,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Lift Companion/Preview Content\"";
-				DEVELOPMENT_TEAM = 3LA529DDWJ;
+				DEVELOPMENT_TEAM = WTMHWLF8T6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
