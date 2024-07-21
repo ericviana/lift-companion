@@ -8,8 +8,26 @@
 import SwiftUI
 
 struct Profile: View {
+    @AppStorage("userName") private var userName: String = ""
+    @AppStorage("preferredUnit") private var preferredUnit: PreferredUnit = .pounds
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List {
+                Section("User Name") {
+                    TextField("Eric", text: $userName)
+                }
+
+                Section("Preferred Unit") {
+                    Picker("Unit", selection: $preferredUnit) {
+                        Text("Pounds (lbs)").tag(PreferredUnit.pounds)
+                        Text("Kilograms (kg)").tag(PreferredUnit.kilograms)
+                    }
+                    .pickerStyle(.menu)
+                }
+            }
+            .navigationTitle("Profile")
+        }
     }
 }
 

@@ -12,3 +12,8 @@ enum Exercise: String, CaseIterable {
     case squat = "Squat"
     case bench = "Bench"
 }
+
+enum PreferredUnit: String, Codable {
+    case pounds = "lbs"
+    case kilograms = "kg"
+}
