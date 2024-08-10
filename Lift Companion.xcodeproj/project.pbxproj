@@ -23,6 +23,7 @@
 		0774CFF52C4498D600AFE3C9 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0774CFF42C4498D600AFE3C9 /* Date+Extensions.swift */; };
 		07B537802C4C573D000F708A /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B5377F2C4C573D000F708A /* LogView.swift */; };
 		07B537822C4C5DE2000F708A /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B537812C4C5DE1000F708A /* SwipeAction.swift */; };
+		07B537842C4DA560000F708A /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B537832C4DA560000F708A /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		0774CFF42C4498D600AFE3C9 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		07B5377F2C4C573D000F708A /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
 		07B537812C4C5DE1000F708A /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
+		07B537832C4DA560000F708A /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				07B5377E2C4C5072000F708A /* Helpers */,
 				0774CFE82C44620400AFE3C9 /* TabViews */,
 				0774CFDD2C444DA300AFE3C9 /* IntroView.swift */,
+				07B537832C4DA560000F708A /* AddView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			files = (
 				0774CFEC2C44622900AFE3C9 /* Trends.swift in Sources */,
 				0774CFEE2C44623400AFE3C9 /* Profile.swift in Sources */,
+				07B537842C4DA560000F708A /* AddView.swift in Sources */,
 				0774CFEA2C44621600AFE3C9 /* Lifts.swift in Sources */,
 				0774CFCF2C433C7A00AFE3C9 /* ContentView.swift in Sources */,
 				0774CFE72C44611000AFE3C9 /* Log.swift in Sources */,

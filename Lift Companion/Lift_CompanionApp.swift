@@ -13,5 +13,6 @@ struct Lift_CompanionApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: [Log.self])
     }
 }

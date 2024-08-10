@@ -9,16 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     @AppStorage("isFirstTime") private var isFirstTime: Bool = true
-    
+
     @State private var activeTab: Tab = .lifts
     var body: some View {
         TabView(selection: $activeTab) {
             Lifts()
                 .tag(Tab.lifts)
                 .tabItem { Tab.lifts.tabContent }
-            Trends()
-                .tag(Tab.trends)
-                .tabItem { Tab.trends.tabContent }
+//            Trends()
+//                .tag(Tab.trends)
+//                .tabItem { Tab.trends.tabContent }
             Profile()
                 .tag(Tab.profile)
                 .tabItem { Tab.profile.tabContent }

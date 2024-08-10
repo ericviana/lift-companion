@@ -9,21 +9,21 @@ import SwiftUI
 
 enum Tab: String {
     case lifts = "Lifts"
-    case trends = "Trends (AI)"
-    case profile = "Profile"
-    
+//    case trends = "Trends (AI)"
+    case profile = "Settings"
+
     @ViewBuilder
     var tabContent: some View {
         switch self {
         case .lifts:
             Image(systemName: "figure.strengthtraining.traditional")
-            Text(self.rawValue)
-        case .trends:
-            Image(systemName: "sparkles")
-            Text(self.rawValue)
+            Text(rawValue)
+//        case .trends:
+//            Image(systemName: "sparkles")
+//            Text(rawValue)
         case .profile:
-            Image(systemName: "person.fill")
-            Text(self.rawValue)
+            Image(systemName: "gear")
+            Text(rawValue)
         }
     }
 }

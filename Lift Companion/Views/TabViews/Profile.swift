@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Profile: View {
     @AppStorage("userName") private var userName: String = ""
-    @AppStorage("preferredUnit") private var preferredUnit: PreferredUnit = .pounds
+    @AppStorage("preferredUnit") private var preferredUnit: PreferredUnit = .kilograms
 
     var body: some View {
         NavigationStack {
@@ -26,7 +26,7 @@ struct Profile: View {
                     .pickerStyle(.menu)
                 }
             }
-            .navigationTitle("Profile")
+            .navigationTitle("Settings")
         }
     }
 }
