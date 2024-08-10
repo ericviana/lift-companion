@@ -14,10 +14,6 @@ struct Profile: View {
     var body: some View {
         NavigationStack {
             List {
-                Section("User Name") {
-                    TextField("Eric", text: $userName)
-                }
-
                 Section("Preferred Unit") {
                     Picker("Unit", selection: $preferredUnit) {
                         Text("Pounds (lbs)").tag(PreferredUnit.pounds)

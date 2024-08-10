@@ -9,7 +9,7 @@ import SwiftUI
 
 enum Tab: String {
     case lifts = "Lifts"
-//    case trends = "Trends (AI)"
+    case trends = "Trends"
     case profile = "Settings"
 
     @ViewBuilder
@@ -18,9 +18,9 @@ enum Tab: String {
         case .lifts:
             Image(systemName: "figure.strengthtraining.traditional")
             Text(rawValue)
-//        case .trends:
-//            Image(systemName: "sparkles")
-//            Text(rawValue)
+        case .trends:
+            Image(systemName: "chart.xyaxis.line")
+            Text(rawValue)
         case .profile:
             Image(systemName: "gear")
             Text(rawValue)
